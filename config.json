@@ -64,7 +64,7 @@
               ],
               "headers": {
                 "Accept-Encoding": [
-                  "br"
+                  "gzip"
                 ],
                 "Connection": [
                   "keep-alive"
@@ -77,7 +77,7 @@
               "reason": "OK",
               "headers": {
                 "Content-Encoding": [
-                  "br"
+                  "gzip"
                 ]
               }
             }
