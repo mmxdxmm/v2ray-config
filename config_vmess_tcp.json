@@ -39,7 +39,7 @@
       "sniffing": null
     },
     {
-      "listen": "0.0.0.0",
+      "listen": "",
       "port": 52102,
       "protocol": "vmess",
       "settings": {
