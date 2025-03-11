@@ -1,31 +1,31 @@
 {
-  "log": null,
-  "routing": {
-    "rules": [
+  "log": null,"log": null,
+  "routing": {"routing": {
+    "rules": ["rules": [
       {
-        "inboundTag": [
-          "api"
+        "inboundTag": ["inboundTag": [
+          "api""api"
         ],
-        "outboundTag": "api",
-        "type": "field"
+        "outboundTag": "api","outboundTag": "api",
+        "type": "field""type": "field"
       },
       {
-        "ip": [
-          "geoip:private"
+        "ip": ["ip": [
+          "geoip:private""geoip:private"
         ],
-        "outboundTag": "blocked",
-        "type": "field"
+        "outboundTag": "blocked","outboundTag": "blocked",
+        "type": "field""type": "field"
       },
       {
-        "outboundTag": "blocked",
-        "protocol": [
-          "bittorrent"
+        "outboundTag": "blocked","outboundTag": "blocked",
+        "protocol": ["protocol": [
+          "bittorrent""bittorrent"
         ],
-        "type": "field"
+        "type": "field""type": "field"
       }
     ]
   },
-  "dns": null,
+  "dns": null,"dns": null,
   "inbounds": [
     {
       "listen": "127.0.0.1",
@@ -40,7 +40,7 @@
     },
     {
       "listen": "",
-      "port": 52102,
+      "port": 54321,
       "protocol": "shadowsocks",
       "settings": {
         "method": "aes-256-gcm",
