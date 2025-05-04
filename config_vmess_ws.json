@@ -1,9 +1,5 @@
 {
-	"log": {
-		"access": "/var/log/v2ray/access.log",
-		"error": "/var/log/v2ray/error.log",
-		"loglevel": "warning"
-	},
+	"log": null,
 	"inbounds": [
 		{
 			"port": 54321,
