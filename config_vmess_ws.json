@@ -48,9 +48,9 @@
 	],
 	"dns": {
 		"servers": [
-			"https+local://dns.google/dns-query",
-			"8.8.8.8",
+			"https+local://1.1.1.1/dns-query",
 			"1.1.1.1",
+			"8.8.8.8",
 			"localhost"
 		]
 	},
